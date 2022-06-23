@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viajes Chile</title>
+    <!-- CSS only -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg flotante">
+      <div class="container-fluid">
+        <a class="navbar-brand tex-icon" href="#"
+        
+          ><img class="icon" src="assets/img/viajes.svg" />Viajes Chile</a
+        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link items" href="#">Inicio</a>
+            <a class="nav-link items d-none d-lg-block" href="#quienes">Quienes somos</a>
+            <a class="nav-link items" href="#destaca">Destacados</a>
+            <a class="nav-link items" href="#contacto">Contactos</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- CARRUSEL-->
+    <section>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/carousel1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- SECCION TEXTO-->
+    <section id="quienes" class="container d-none d-lg-block">
+      <div class="row">
+        <h1 class="titulo">Quienes Somos</h1>
+      </div>
+      <div class="row">
+        <div class="col">
+          <i class="fa-solid fa-plane-departure favicons"></i>
+          <p class="texto">
+            Nuestro proyecto de posicionarnos en el mercado del turismo es con
+            el propósito de ofrecer lo que el viajero actual está buscando,
+            rapidez y la organización de un viaje que desde el inicio sea el
+            reflejo de la preocupación y asesoría personalizada. Hemos sabido
+            reconocer que es lo que hace de un producto turístico una
+            Experiencia de Viaje diferente y que es lo que están buscando los
+            viajeros del día de hoy, en función de la constante innovación de
+            productos, ofertas de temporadas.
+          </p>
+        </div>
+        <div class="col">
+          <p class="texto">
+            Teniendo una variedad de paquetes que se adapten a las necesidades
+            del pasajero. Estas son las notas dominantes de nuestra estrategia
+            empresarial y competencia en el mercado. La negociación con
+            importantes operadores de viajes permitirán que el cliente encuentre
+            lo que busque en el destino que sea. Tenemos un compromiso de
+            calidad y creatividad con los clientes en la organización de viajes
+            de incentivos de ocio , vacacionales y grupales.
+          </p>
+          <i class="fa-solid fa-mountain-sun favicons"></i>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-suitcase-rolling favicons"></i>
+          <p class="texto">
+            El grupo de trabajo tiene como objetivo que el cliente se sienta
+            satisfecho, durante el proceso de contratación y después escuchar
+            sus comentarios. Informar a nuestros clientes de las ofertas a
+            través de entrega de news letters. Nuestra empresa tiene el
+            compromiso de tener como prioridad al pasajero, escuchar sus
+            necesidades para poder dar una respuesta seria y que sea empatica al
+            sentir del mismo. Nuestros horarios están adaptados para entregar
+            respuesta cuando el pasajero lo necesite y de esta forma otorgar un
+            servicio eficiente.
+          </p>
+        </div>
+      </div>
+    </section>
+     <!-- SECCION card-->
+    <section id="destaca" class="container">
+      <div class="row">
+        <h6 class="destacado">Destacados</h6>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card tex-paisaje" style="width: 18rem">
+            <img src="assets/img/card1.jpg" class="card-img-top" alt="card1" />
+            <div class="card-body">
+              <p class="card-text">
+                La laguna Miscanti está ubicada en el Altiplano de la región de
+                Antofagasta, en el norte de Chile, y es uno de los 7 sectores de
+                la reserva nacional Los Flamencos. tiene un gran número de
+                cráteres, domos y flujos de lava, se eleva en su cima a 5910
+                msnm, ubicado al sur de la laguna.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card tex-paisaje" style="width: 18rem">
+            <img src="assets/img/card2.jpg" class="card-img-top" alt="card2" />
+            <div class="card-body">
+              <p class="card-text">
+                La Laguna Miñiques está ubicada a 28 kilómetros al sureste del
+                pueblo de Socaire, tiene 1,5 km² de superficie y está a 4115
+                msnm. Como su vecina Miscanti, la administra la Comunidad
+                Atacameña de Socaire Atacameña de Socaire en asociatividad.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card tex-paisaje" style="width: 18rem">
+            <img src="assets/img/card3.jpg" class="card-img-top" alt="card3" />
+            <div class="card-body">
+              <p class="card-text">
+                El Salar de Uyuni, en medio de los Andes en el sur de Bolivia,
+                es la salina más grande del mundo. Es el legado de un lago
+                prehistórico que se secó y dejó un paisaje desértico de casi
+                11,000 km cuadrados de sal blanca brillante, formaciones rocosas
+                e islas con cactus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card tex-paisaje" style="width: 18rem">
+            <img src="assets/img/card4.jpg" class="card-img-top" alt="card4" />
+            <div class="card-body">
+              <p class="card-text">
+                El bosque valdiviano, también llamado selva valdiviana, o bosque
+                andino patagónico es una ecorregión del centro-sur de Chile y
+                Patagonia Argentina. Se caracteriza por tener bosques siempre
+                verdes de múltiples estratos, en un clima templado-lluvioso u
+                oceánico
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- SECCION formulario-->
+    <section id="contacto" class="container">
+      <h6 class="contact">Contacto</h6>
+      <div class="mb-3 formulario">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Nombre</label
+        >
+        <input
+          type="nombre"
+          class="form-control"
+          placeholder="Nombre"
+        />
+      </div>
+      <div class="mb-3 formulario">
+        <label for="exampleFormControlInput1" class="form-label"
+          >Asunto</label
+        >
+        <input
+          type="Asunto"
+          class="form-control"
+          placeholder="Asunto"
+        />
+      </div>
+      <div class="mb-3 formulario">
+        <label for="exampleFormControlTextarea1" class="form-label"
+          >Mensaje</label
+        >
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+        <button type="reset" class="boton" id="enviar">Enviar</button>
+      </div>
+      
+    </section>
+    <footer class="final">
+        <p class="pfinal">ViajesChile</p>
+        <div class="iconBrands">
+           <a class="ancBrand" target="_blank" href="https://www.github.com"> <i class="fa-brands fa-github"></i></a>
+           <a class="ancBrand" target="_blank" href="https://www.twitter.com"> <i class="fa-brands fa-twitter-square"></i></a>
+           <a class="ancBrand" target="_blank" href="https://www.instagram.com"> <i class="fa-brands fa-instagram-square"></i></a>
+           <a class="ancBrand" target="_blank" href="https://www.facebook.com"> <i class="fa-brands fa-facebook"></i></a>
+        </div>
+        
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="./assets/img/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

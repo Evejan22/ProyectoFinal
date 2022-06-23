@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+}
+.icon{
+  width: 60px;
+  height: 60px;
+}
+.tex-icon{
+    
+    display: flex;
+    align-items: center;
+    color: yellowgreen;
+    font-family: "LuxuriousRoman";
+}
+.items{
+   margin-right: 2em;
+    color: yellowgreen;
+    font-family: "LuxuriousRoman";
+    font-weight: bolder;
+    font-size: large;
+}
+.flotante{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    border: 2px solid yellowgreen;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: "LuxuriousRoman";
+}
+.texto{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+.favicons{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    background-color: yellowgreen;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.destacado{
+    display: flex;
+    justify-content: center;
+    border: 2px solid yellowgreen;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: "LuxuriousRoman"; 
+    font-size: 40px;
+}
+.tex-paisaje{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: yellowgreen;
+    color: black;
+    font-family: 'Cabin', sans-serif;  
+}
+
+  .card img:hover {
+      z-index: 2;
+    transform: scale(2);
+    transition-duration: 2s;
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+    border: 2px solid yellowgreen;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: "LuxuriousRoman"; 
+    font-size: 40px;
+  }
+  .formulario{
+      color: white;
+  }
+  .boton{
+    color: black;
+    font-family: "LuxuriousRoman";
+    margin-top: 10px;
+  }
+  .final{
+      display: flex;
+      justify-content: space-between;
+      background-color: yellowgreen;
+      width: 100%;
+      padding: 2em;
+      padding-left: 4em;
+      padding-right: 4em;
+    }
+    .pfinal{
+        color: white;
+        font-family: "LuxuriousRoman"; 
+        font-size: 24px;
+        
+  }
+  .ancBrand{
+    color: white;
+  }
+
+  .iconBrands{
+      width: 20%;
+      font-size: 32px;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      color: white;
+  }
