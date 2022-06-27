@@ -20,7 +20,7 @@ body{
     font-size: large;
 }
 .flotante{
-    position: absolute;
+    position: fixed;
     width: 100%;
     top: 0;
     z-index: 2;
@@ -28,7 +28,6 @@ body{
 .titulo{
     display: flex;
     justify-content: center;
-    border: 2px solid yellowgreen;
     margin-top: 50px;
     margin-bottom: 50px;
     color: white;
@@ -54,7 +53,6 @@ body{
 .destacado{
     display: flex;
     justify-content: center;
-    border: 2px solid yellowgreen;
     margin-top: 50px;
     margin-bottom: 50px;
     color: white;
@@ -76,7 +74,6 @@ body{
   .contact{
     display: flex;
     justify-content: center;
-    border: 2px solid yellowgreen;
     margin-top: 50px;
     margin-bottom: 50px;
     color: white;
